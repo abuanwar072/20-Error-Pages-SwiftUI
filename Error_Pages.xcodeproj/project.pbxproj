@@ -13,6 +13,26 @@
 		8817BEC025AB71D2009F32AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8817BEBF25AB71D2009F32AC /* Preview Assets.xcassets */; };
 		8817BECB25AB71D2009F32AC /* Error_PagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817BECA25AB71D2009F32AC /* Error_PagesTests.swift */; };
 		8817BED625AB71D2009F32AC /* Error_PagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817BED525AB71D2009F32AC /* Error_PagesUITests.swift */; };
+		8833A09225AC3FBC0046D95C /* NoConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833A09125AC3FBC0046D95C /* NoConnection.swift */; };
+		8833A09725AC60830046D95C /* Error404.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833A09625AC60830046D95C /* Error404.swift */; };
+		8833A09C25AC63CD0046D95C /* SomethingWentWrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833A09B25AC63CD0046D95C /* SomethingWentWrong.swift */; };
+		8833A0A125AC645D0046D95C /* SomethingWrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833A0A025AC645D0046D95C /* SomethingWrong.swift */; };
+		8833A0A625AC66470046D95C /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833A0A525AC66470046D95C /* Error.swift */; };
+		8833A0AB25AC6AA10046D95C /* LocationAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833A0AA25AC6AA10046D95C /* LocationAccess.swift */; };
+		88FEA4D125ADF3D5000B5CB0 /* BrokenLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA4D025ADF3D5000B5CB0 /* BrokenLink.swift */; };
+		88FEA4D625ADF5E2000B5CB0 /* MissingArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA4D525ADF5E2000B5CB0 /* MissingArticle.swift */; };
+		88FEA4DB25ADF73F000B5CB0 /* PaymentFailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA4DA25ADF73F000B5CB0 /* PaymentFailed.swift */; };
+		88FEA4E025ADF81F000B5CB0 /* RouterOffline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA4DF25ADF81F000B5CB0 /* RouterOffline.swift */; };
+		88FEA4E525ADF88C000B5CB0 /* ConnectionFailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA4E425ADF88C000B5CB0 /* ConnectionFailed.swift */; };
+		88FEA4F225ADF975000B5CB0 /* CameraAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA4F125ADF975000B5CB0 /* CameraAccess.swift */; };
+		88FEA4F725ADFA2F000B5CB0 /* FileNotFound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA4F625ADFA2F000B5CB0 /* FileNotFound.swift */; };
+		88FEA4FC25ADFB4A000B5CB0 /* ErrorFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA4FB25ADFB4A000B5CB0 /* ErrorFood.swift */; };
+		88FEA50125ADFC2A000B5CB0 /* ErrorScreen404.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA50025ADFC2A000B5CB0 /* ErrorScreen404.swift */; };
+		88FEA50625ADFD23000B5CB0 /* StorageNotEnough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA50525ADFD23000B5CB0 /* StorageNotEnough.swift */; };
+		88FEA50B25ADFE5B000B5CB0 /* TimeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA50A25ADFE5B000B5CB0 /* TimeError.swift */; };
+		88FEA51025ADFF3A000B5CB0 /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA50F25ADFF3A000B5CB0 /* LocationError.swift */; };
+		88FEA51525ADFFD9000B5CB0 /* FIleNotFound2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA51425ADFFD9000B5CB0 /* FIleNotFound2.swift */; };
+		88FEA51A25AE0492000B5CB0 /* NoSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEA51925AE0492000B5CB0 /* NoSearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +65,26 @@
 		8817BED125AB71D2009F32AC /* Error_PagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Error_PagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8817BED525AB71D2009F32AC /* Error_PagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error_PagesUITests.swift; sourceTree = "<group>"; };
 		8817BED725AB71D2009F32AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8833A09125AC3FBC0046D95C /* NoConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoConnection.swift; sourceTree = "<group>"; };
+		8833A09625AC60830046D95C /* Error404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error404.swift; sourceTree = "<group>"; };
+		8833A09B25AC63CD0046D95C /* SomethingWentWrong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomethingWentWrong.swift; sourceTree = "<group>"; };
+		8833A0A025AC645D0046D95C /* SomethingWrong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomethingWrong.swift; sourceTree = "<group>"; };
+		8833A0A525AC66470046D95C /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		8833A0AA25AC6AA10046D95C /* LocationAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAccess.swift; sourceTree = "<group>"; };
+		88FEA4D025ADF3D5000B5CB0 /* BrokenLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenLink.swift; sourceTree = "<group>"; };
+		88FEA4D525ADF5E2000B5CB0 /* MissingArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingArticle.swift; sourceTree = "<group>"; };
+		88FEA4DA25ADF73F000B5CB0 /* PaymentFailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFailed.swift; sourceTree = "<group>"; };
+		88FEA4DF25ADF81F000B5CB0 /* RouterOffline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterOffline.swift; sourceTree = "<group>"; };
+		88FEA4E425ADF88C000B5CB0 /* ConnectionFailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionFailed.swift; sourceTree = "<group>"; };
+		88FEA4F125ADF975000B5CB0 /* CameraAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAccess.swift; sourceTree = "<group>"; };
+		88FEA4F625ADFA2F000B5CB0 /* FileNotFound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNotFound.swift; sourceTree = "<group>"; };
+		88FEA4FB25ADFB4A000B5CB0 /* ErrorFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorFood.swift; sourceTree = "<group>"; };
+		88FEA50025ADFC2A000B5CB0 /* ErrorScreen404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorScreen404.swift; sourceTree = "<group>"; };
+		88FEA50525ADFD23000B5CB0 /* StorageNotEnough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageNotEnough.swift; sourceTree = "<group>"; };
+		88FEA50A25ADFE5B000B5CB0 /* TimeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeError.swift; sourceTree = "<group>"; };
+		88FEA50F25ADFF3A000B5CB0 /* LocationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationError.swift; sourceTree = "<group>"; };
+		88FEA51425ADFFD9000B5CB0 /* FIleNotFound2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIleNotFound2.swift; sourceTree = "<group>"; };
+		88FEA51925AE0492000B5CB0 /* NoSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +135,7 @@
 		8817BEB725AB71D1009F32AC /* Error_Pages */ = {
 			isa = PBXGroup;
 			children = (
+				8833A09025AC3F9E0046D95C /* Screens */,
 				8817BEB825AB71D1009F32AC /* Error_PagesApp.swift */,
 				8817BEBA25AB71D1009F32AC /* ContentView.swift */,
 				8817BEBC25AB71D2009F32AC /* Assets.xcassets */,
@@ -128,6 +169,33 @@
 				8817BED725AB71D2009F32AC /* Info.plist */,
 			);
 			path = Error_PagesUITests;
+			sourceTree = "<group>";
+		};
+		8833A09025AC3F9E0046D95C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8833A09125AC3FBC0046D95C /* NoConnection.swift */,
+				8833A09625AC60830046D95C /* Error404.swift */,
+				8833A09B25AC63CD0046D95C /* SomethingWentWrong.swift */,
+				8833A0A025AC645D0046D95C /* SomethingWrong.swift */,
+				8833A0A525AC66470046D95C /* Error.swift */,
+				8833A0AA25AC6AA10046D95C /* LocationAccess.swift */,
+				88FEA4D025ADF3D5000B5CB0 /* BrokenLink.swift */,
+				88FEA4D525ADF5E2000B5CB0 /* MissingArticle.swift */,
+				88FEA4DA25ADF73F000B5CB0 /* PaymentFailed.swift */,
+				88FEA4DF25ADF81F000B5CB0 /* RouterOffline.swift */,
+				88FEA4E425ADF88C000B5CB0 /* ConnectionFailed.swift */,
+				88FEA4F125ADF975000B5CB0 /* CameraAccess.swift */,
+				88FEA4F625ADFA2F000B5CB0 /* FileNotFound.swift */,
+				88FEA4FB25ADFB4A000B5CB0 /* ErrorFood.swift */,
+				88FEA50025ADFC2A000B5CB0 /* ErrorScreen404.swift */,
+				88FEA50525ADFD23000B5CB0 /* StorageNotEnough.swift */,
+				88FEA50A25ADFE5B000B5CB0 /* TimeError.swift */,
+				88FEA50F25ADFF3A000B5CB0 /* LocationError.swift */,
+				88FEA51425ADFFD9000B5CB0 /* FIleNotFound2.swift */,
+				88FEA51925AE0492000B5CB0 /* NoSearchResult.swift */,
+			);
+			name = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +327,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8833A0A125AC645D0046D95C /* SomethingWrong.swift in Sources */,
+				88FEA4D625ADF5E2000B5CB0 /* MissingArticle.swift in Sources */,
+				8833A09225AC3FBC0046D95C /* NoConnection.swift in Sources */,
+				8833A0AB25AC6AA10046D95C /* LocationAccess.swift in Sources */,
+				88FEA4D125ADF3D5000B5CB0 /* BrokenLink.swift in Sources */,
+				88FEA4DB25ADF73F000B5CB0 /* PaymentFailed.swift in Sources */,
+				88FEA4E025ADF81F000B5CB0 /* RouterOffline.swift in Sources */,
 				8817BEBB25AB71D1009F32AC /* ContentView.swift in Sources */,
+				88FEA4F725ADFA2F000B5CB0 /* FileNotFound.swift in Sources */,
+				88FEA4E525ADF88C000B5CB0 /* ConnectionFailed.swift in Sources */,
+				88FEA51525ADFFD9000B5CB0 /* FIleNotFound2.swift in Sources */,
+				8833A09C25AC63CD0046D95C /* SomethingWentWrong.swift in Sources */,
+				88FEA4F225ADF975000B5CB0 /* CameraAccess.swift in Sources */,
+				88FEA4FC25ADFB4A000B5CB0 /* ErrorFood.swift in Sources */,
+				88FEA50B25ADFE5B000B5CB0 /* TimeError.swift in Sources */,
 				8817BEB925AB71D1009F32AC /* Error_PagesApp.swift in Sources */,
+				8833A0A625AC66470046D95C /* Error.swift in Sources */,
+				88FEA50625ADFD23000B5CB0 /* StorageNotEnough.swift in Sources */,
+				88FEA51025ADFF3A000B5CB0 /* LocationError.swift in Sources */,
+				88FEA50125ADFC2A000B5CB0 /* ErrorScreen404.swift in Sources */,
+				8833A09725AC60830046D95C /* Error404.swift in Sources */,
+				88FEA51A25AE0492000B5CB0 /* NoSearchResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
