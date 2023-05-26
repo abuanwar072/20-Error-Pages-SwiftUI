@@ -15,17 +15,17 @@ struct MissingArticle: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .center, spacing: 30) {
-                Text("Missing Article")
+                Text("MISSING_ARTICLE_TEXT_TITLE")
                     .font(.title)
                 
-                Text("Article you are looking for \nis not available")
+                Text("MISSING_ARTICLE_TEXT_EXPLANATION")
                     .multilineTextAlignment(.center)
                     .opacity(0.7)
                 
                 Button(action: {
                     
                 }) {
-                    Text("Back".uppercased())
+                    Text("MISSING_ARTICLE_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .padding(.vertical)

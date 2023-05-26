@@ -16,17 +16,17 @@ struct NoSearchResult: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .leading, spacing: 30) {
-                Text("No Results")
+                Text("NO_SEARCH_RESULT_TEXT_TITLE")
                     .foregroundColor(.white)
                     .font(.largeTitle)
                     .foregroundColor(.white)
                 
-                Text("Sorry, there are no results for \nthis search, Please try another phrase...")
+                Text("NO_SEARCH_RESULT_TEXT_EXPLANATION")
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .opacity(0.7)
                 
-                    TextField("Search...", text: $search)
+                    TextField("NO_SEARCH_RESULT_TEXT_FIELD", text: $search)
                         .padding()
                         .background(Color.white)
                         .cornerRadius(50)

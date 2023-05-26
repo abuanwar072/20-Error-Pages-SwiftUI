@@ -18,21 +18,21 @@ struct Error: View {
                 Text("Error!")
                     .font(.title)
                 
-                Text("Something went wrong, \nPlease try again later")
+                Text("ERROR_TEXT_EXPLANATION")
                     .multilineTextAlignment(.center)
                     .opacity(0.7)
                 
                 Button(action: {
                     
                 }) {
-                    Text("Retry".uppercased())
+                    Text("ERROR404_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.black)
                         .padding(.vertical)
                         .padding(.horizontal, 30)
                         .background(Capsule().foregroundColor(.white))
                         .shadow( color: Color(#colorLiteral(red: 0.337254902, green: 0.4, blue: 0.7607843137, alpha: 0.17)), radius: 25, x: 0, y: 13)
-                        
+                        //
                 }
                 
             }

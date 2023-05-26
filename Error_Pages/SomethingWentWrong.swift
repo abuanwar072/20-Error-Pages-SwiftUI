@@ -18,14 +18,14 @@ struct SomethingWentWrong: View {
                 Text("oh no!")
                     .font(.title)
                 
-                Text("Someting went wrong. \nPlease try again.")
+                Text("SOMETHING_WENT_WRONG_TEXT_EXPLANATION")
                     .multilineTextAlignment(.center)
                     .opacity(0.7)
                 
                 Button(action: {
                     
                 }) {
-                    Text("Try Again".uppercased())
+                    Text("SOMETHING_WENT_WRONG_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .padding(.vertical)

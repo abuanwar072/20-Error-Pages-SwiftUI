@@ -15,12 +15,12 @@ struct FIleNotFound2: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .leading, spacing: 30) {
-                Text("No Files")
+                Text("FILE_NOT_FOUND_2_TEXT_TITLE")
                     .foregroundColor(.white)
                     .font(.title)
                     .foregroundColor(.white)
                 
-                Text("Opps! The file you are looking for cannot be found....")
+                Text("FILE_NOT_FOUND_2_TEXT_EXPLANATION")
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .opacity(0.7)
@@ -28,7 +28,7 @@ struct FIleNotFound2: View {
                 Button(action: {
                     
                 }) {
-                    Text("Home".uppercased())
+                    Text("FILE_NOT_FOUND_2_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.black)
                         .padding(.vertical)

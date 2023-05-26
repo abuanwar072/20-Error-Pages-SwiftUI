@@ -18,20 +18,23 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fill)
                     .edgesIgnoringSafeArea(.all)
                 VStack (alignment: .leading, spacing: 30) {
-                    Text("No Results")
+                    Text("CONTENT_VIEW_TEXT_TITLE")
                         .foregroundColor(.white)
                         .font(.largeTitle)
                         .foregroundColor(.white)
+                    //No Results
                     
-                    Text("Sorry, there are no results for \nthis search, Please try another phrase...")
+                    Text("CONTENT_VIEW_TEXT_EXPLANATION")
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .opacity(0.7)
+                    //
                     
-                        TextField("Search...", text: $search)
+                        TextField("CONTENT_VIEW_TEXT_FIELD", text: $search)
                             .padding()
                             .background(Color.white)
                             .cornerRadius(50)
+                    //Search...
                         
                 }
                 .padding(.horizontal, 70)

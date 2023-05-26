@@ -15,12 +15,12 @@ struct TimeError: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .leading, spacing: 30) {
-                Text("Something Not Right...")
+                Text("TIME_ERROR_TEXT_TITLE")
                     .foregroundColor(.black)
                     .font(.title)
                     .foregroundColor(.white)
                 
-                Text("Please check the status of your \ndevice and retry")
+                Text("TIME_ERROR_TEXT_EXPLANATION")
                     .fontWeight(.semibold)
                     .foregroundColor(.black)
                     .opacity(0.7)
@@ -28,7 +28,7 @@ struct TimeError: View {
                 Button(action: {
                     
                 }) {
-                    Text("Retry".uppercased())
+                    Text("TIME_ERROR_BUTTON_TEXT".uppercased())
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .padding(.vertical)

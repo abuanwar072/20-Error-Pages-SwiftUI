@@ -15,17 +15,17 @@ struct RouterOffline: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .center, spacing: 30) {
-                Text("Router Offline")
+                Text("ROUTER_OFFLINE_TEXT_TITLE")
                     .font(.title)
                 
-                Text("No internet connection, please try restarting your router...")
+                Text("ROUTER_OFFLINE_TEXT_EXPLANATION")
                     .multilineTextAlignment(.center)
                     .opacity(0.7)
                 
                 Button(action: {
                     
                 }) {
-                    Text("Retry".uppercased())
+                    Text("ROUTER_OFFLINE_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.black)
                         .padding(.vertical)

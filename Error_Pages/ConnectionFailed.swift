@@ -15,17 +15,17 @@ struct ConnectionFailed: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .center, spacing: 30) {
-                Text("Connection Failed")
+                Text("CONNECTION_FAILED_TEXT_TITLE")
                     .font(.title)
                 
-                Text("Could not connect to the network, \nPlease check and try again.")
+                Text("CONNECTION_FAILED_TEXT_EXPLANATION")
                     .multilineTextAlignment(.center)
                     .opacity(0.7)
                 
                 Button(action: {
                     
                 }) {
-                    Text("Retry".uppercased())
+                    Text("CONNECTION_FAILED_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .padding(.vertical)

@@ -18,19 +18,21 @@ struct SomethingWrong: View {
                 Text("Oh oh!")
                     .font(.title)
                 
-                Text("The file you are looking for \nis not here...")
+                Text("SOMETHING_WRONG_TEXT_EXPLANATION")
                     .multilineTextAlignment(.center)
                     .opacity(0.7)
+                
                 
                 Button(action: {
                     
                 }) {
-                    Text("Go Back".uppercased())
+                    Text("SOMETHING_WRONG_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .padding(.vertical)
                         .padding(.horizontal, 30)
                         .background(Capsule().foregroundColor(Color(#colorLiteral(red: 0.4392156863, green: 0.4392156863, blue: 0.8549019608, alpha: 1))))
+                    
                 }
             }
             .padding(.horizontal, 70)

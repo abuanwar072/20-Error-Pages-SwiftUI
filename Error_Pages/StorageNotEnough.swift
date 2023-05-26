@@ -15,12 +15,12 @@ struct StorageNotEnough: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .leading, spacing: 30) {
-                Text("Not Enough Space")
+                Text("STORAGE_NOT_ENOUGH_TEXT_TITLE")
                     .foregroundColor(.black)
                     .font(.largeTitle)
                     .foregroundColor(.white)
                 
-                Text("You do not have enough storage \nleft to save this file...")
+                Text("STORAGE_NOT_ENOUGH_TEXT_EXPLANATION")
                     .fontWeight(.semibold)
                     .foregroundColor(.black)
                     .opacity(0.7)
@@ -28,7 +28,7 @@ struct StorageNotEnough: View {
                 Button(action: {
                     
                 }) {
-                    Text("manage".uppercased())
+                    Text("STORAGE_NOT_ENOUGH_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .padding(.vertical)

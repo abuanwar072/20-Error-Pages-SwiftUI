@@ -15,12 +15,12 @@ struct LocationError: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .leading, spacing: 30) {
-                Text("Hang on a sec...")
+                Text("LOCATION_ERROR_TEXT_TITLE")
                     .foregroundColor(.white)
                     .font(.title)
                     .foregroundColor(.white)
                 
-                Text("It seems you are in the middle of \nthe ocean.")
+                Text("LOCATION_ERROR_TEXT_EXPLANATION")
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .opacity(0.7)
@@ -28,7 +28,7 @@ struct LocationError: View {
                 Button(action: {
                     
                 }) {
-                    Text("Refresh".uppercased())
+                    Text("LOCATION_ERROR_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.black)
                         .padding(.vertical)

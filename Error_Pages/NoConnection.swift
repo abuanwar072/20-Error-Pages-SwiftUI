@@ -19,7 +19,7 @@ struct NoConnection: View {
                     .font(.largeTitle)
                     .foregroundColor(.white)
                 
-                Text("Something wrong with your \nconnection, Please try \nagain.")
+                Text("NOCONNECRTİON_TEXT_EXPLANATION")
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .opacity(0.7)
@@ -27,7 +27,7 @@ struct NoConnection: View {
                 Button(action: {
                     
                 }) {
-                    Text("Retry".uppercased())
+                    Text("NOCONNECRTİON_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.black)
                         .padding(.vertical)

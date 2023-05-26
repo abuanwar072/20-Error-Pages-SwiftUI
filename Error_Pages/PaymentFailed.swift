@@ -15,17 +15,17 @@ struct PaymentFailed: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .center, spacing: 30) {
-                Text("Payment Failed")
+                Text("PAYMENT_FAILED_TEXT_TITLE")
                     .font(.title)
                 
-                Text("Your card was rejected by the vendor. Please try again")
+                Text("PAYMENT_FAILED_TEXT_EXPLANATION")
                     .multilineTextAlignment(.center)
                     .opacity(0.7)
                 
                 Button(action: {
                     
                 }) {
-                    Text("Back".uppercased())
+                    Text("PAYMENT_FAILED_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .padding(.vertical)
