@@ -1,0 +1,84 @@
+/* 
+  Localizable.strings
+  Error_Pages
+
+  Created by Göktug Yeşil on 26.05.2023.
+  
+*/
+
+"NOCONNECRTİON_TEXT_EXPLANATION" = "Something wrong with your \nconnection, Please try \nagain.";
+"NOCONNECRTİON_BUTTON_TEXT" = "RETRY";
+
+"ERROR404_TEXT_TITLE" = "Page Not Found";
+"ERROR404_TEXT_EXPLANATION" = "The page you are looking for doesn’t seem to exist…";
+"ERROR404_BUTTON_TEXT" = "GO HOME";
+
+"SOMETHING_WENT_WRONG_TEXT_EXPLANATION" = "Someting went wrong. \nPlease try again.";
+"SOMETHING_WENT_WRONG_BUTTON_TEXT" = "TRY AGAIN";
+
+"SOMETHING_WRONG_TEXT_EXPLANATION" = "The file you are looking for \nis not here...";
+"SOMETHING_WRONG_BUTTON_TEXT" = "GO BACK";
+
+"ERROR_TEXT_EXPLANATION" = "Something went wrong, \nPlease try again later";
+"ERROR404_BUTTON_TEXT" = "RETRY";
+
+"LOCATION_ACCESS_TEXT_EXPLANATION" = "Please enable location access \nto use this feature";
+"LOCATION_ACCESS_BUTTON_TEXT" = "ENABLE";
+
+"BROKEN_LINK_TEXT_TITLE" = "Broken Link!";
+"BROKEN_LINK_TEXT_EXPLANATION" = "Something went wrong, please try again later";
+"BROKEN_LINK_BUTTON_TEXT" = "RETRY";
+
+"MISSING_ARTICLE_TEXT_TITLE" = "Missing Article";
+"MISSING_ARTICLE_TEXT_EXPLANATION" = "Article you are looking for \nis not available";
+"MISSING_ARTICLE_BUTTON_TEXT" = "BACK";
+
+"PAYMENT_FAILED_TEXT_TITLE" = "Payment Failed";
+"PAYMENT_FAILED_TEXT_EXPLANATION" = "Your card was rejected by the vendor. Please try again";
+"PAYMENT_FAILED_BUTTON_TEXT" = "BACK";
+
+"ROUTER_OFFLINE_TEXT_TITLE" = "Router Offline";
+"ROUTER_OFFLINE_TEXT_EXPLANATION" = "No internet connection, please try restarting your router...";
+"ROUTER_OFFLINE_BUTTON_TEXT" = "RETRY";
+
+"CONNECTION_FAILED_TEXT_TITLE" = "Connection Failed";
+"CONNECTION_FAILED_TEXT_EXPLANATION" = "Could not connect to the network, \nPlease check and try again.";
+"CONNECTION_FAILED_BUTTON_TEXT" = "RETRY";
+
+"CAMERA_ACCESS_TEXT_TITLE" = "Camera Access";
+"CAMERA_ACCESS_TEXT_EXPLANATION" = "Please allow access to your \ncamera to take photos";
+"CAMERA_ACCESS_BUTTON_TEXT" = "ALLOW";
+
+"FILE_NOT_FOUND_TEXT_EXPLANATION" = "Looks like the file you are looking for is missing....";
+"FILE_NOT_FOUND_BUTTON_TEXT" = "HOME";
+
+"ERROR_FOOD_TEXT_EXPLANATION" = "Something is wrong here… \nWe’ll fix it soon!";
+"ERROR_FOOD_BUTTON_TEXT" = "HOME";
+
+"ERROR_SCREEN_404_TEXT_TITLE" = "Dead End";
+"ERROR_SCREEN_404_TEXT_EXPLANATION" = "Opps! Tha page you are looking \nfor doesn’t exist...";
+"ERROR_SCREEN_404_BUTTON_TEXT" = "HOME";
+
+"STORAGE_NOT_ENOUGH_TEXT_TITLE" = "Not Enough Space";
+"STORAGE_NOT_ENOUGH_TEXT_EXPLANATION" = "You do not have enough storage \nleft to save this file...";
+"STORAGE_NOT_ENOUGH_BUTTON_TEXT" = "MANAGE";
+
+"TIME_ERROR_TEXT_TITLE" = "Something Not Right...";
+"TIME_ERROR_TEXT_EXPLANATION" = "Please check the status of your \ndevice and retry";
+"TIME_ERROR_BUTTON_TEXT" = "RETRY";
+
+"LOCATION_ERROR_TEXT_TITLE" = "Hang on a sec...";
+"LOCATION_ERROR_TEXT_EXPLANATION" = "It seems you are in the middle of \nthe ocean.";
+"LOCATION_ERROR_BUTTON_TEXT" = "REFRESH";
+
+"FILE_NOT_FOUND_2_TEXT_TITLE" = "No Files";
+"FILE_NOT_FOUND_2_TEXT_EXPLANATION" = "Opps! The file you are looking for cannot be found....";
+"FILE_NOT_FOUND_2_BUTTON_TEXT" = "HOME";
+
+"NO_SEARCH_RESULT_TEXT_TITLE" = "No Results";
+"NO_SEARCH_RESULT_TEXT_EXPLANATION" = "Sorry, there are no results for \nthis search, Please try another phrase...";
+"NO_SEARCH_RESULT_TEXT_FIELD" = "Search...";
+
+"CONTENT_VIEW_TEXT_TITLE" = "No Results";
+"CONTENT_VIEW_TEXT_EXPLANATION" = "Sorry, there are no results for \nthis search, Please try another phrase...";
+"CONTENT_VIEW_TEXT_FIELD" = "Search...";

@@ -15,22 +15,23 @@ struct Error404: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .center, spacing: 30) {
-                Text("Page Not Found")
+                Text("ERROR404_TEXT_TITLE")
                     .font(.title)
                 
-                Text("The page you are looking for doesn’t seem to exist…")
+                Text("ERROR404_TEXT_EXPLANATION")
                     .multilineTextAlignment(.center)
                     .opacity(0.7)
                 
                 Button(action: {
                     
                 }) {
-                    Text("Go Home".uppercased())
+                    Text("ERROR404_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .padding(.vertical)
                         .padding(.horizontal, 30)
                         .background(Capsule().foregroundColor(.blue))
+                    
                 }
             }
             .padding(.horizontal, 70)

@@ -15,11 +15,11 @@ struct ErrorScreen404: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .leading, spacing: 30) {
-                Text("Dead End")
+                Text("ERROR_SCREEN_404_TEXT_TITLE")
                     .font(.largeTitle)
                     .foregroundColor(.white)
                 
-                Text("Opps! Tha page you are looking \nfor doesn’t exist...")
+                Text("ERROR_SCREEN_404_TEXT_EXPLANATION")
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .opacity(0.7)
@@ -27,7 +27,7 @@ struct ErrorScreen404: View {
                 Button(action: {
                     
                 }) {
-                    Text("Home".uppercased())
+                    Text("ERROR_SCREEN_404_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.black)
                         .padding(.vertical)

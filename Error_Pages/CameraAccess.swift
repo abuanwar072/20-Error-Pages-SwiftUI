@@ -15,17 +15,17 @@ struct CameraAccess: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .center, spacing: 30) {
-                Text("Camera Access")
+                Text("CAMERA_ACCESS_TEXT_TITLE")
                     .font(.title)
                 
-                Text("Please allow access to your \ncamera to take photos")
+                Text("CAMERA_ACCESS_TEXT_EXPLANATION")
                     .multilineTextAlignment(.center)
                     .opacity(0.7)
                 
                 Button(action: {
                     
                 }) {
-                    Text("Allow".uppercased())
+                    Text("CAMERA_ACCESS_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .padding(.vertical)

@@ -15,11 +15,11 @@ struct BrokenLink: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack (alignment: .center, spacing: 30) {
-                Text("Broken Link!")
+                Text("BROKEN_LINK_TEXT_TITLE")
                     .foregroundColor(.white)
                     .font(.title)
                 
-                Text("Something went wrong, please try again later")
+                Text("BROKEN_LINK_TEXT_EXPLANATION")
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
                     .opacity(0.7)
@@ -27,13 +27,14 @@ struct BrokenLink: View {
                 Button(action: {
                     
                 }) {
-                    Text("Retry".uppercased())
+                    Text("BROKEN_LINK_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.black)
                         .padding(.vertical)
                         .padding(.horizontal, 30)
                         .background(Capsule().foregroundColor(.white))
                         .shadow( color: Color(#colorLiteral(red: 0.337254902, green: 0.4, blue: 0.7607843137, alpha: 0.17)), radius: 25, x: 0, y: 13)
+                    
                         
                 }
                 

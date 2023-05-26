@@ -18,14 +18,14 @@ struct LocationAccess: View {
                 Text("Location Access!")
                     .font(.title)
                 
-                Text("Please enable location access \nto use this feature")
+                Text("LOCATION_ACCESS_TEXT_EXPLANATION")
                     .multilineTextAlignment(.center)
                     .opacity(0.7)
                 
                 Button(action: {
                     
                 }) {
-                    Text("Enable".uppercased())
+                    Text("LOCATION_ACCESS_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .padding(.vertical)
@@ -33,7 +33,7 @@ struct LocationAccess: View {
                         .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 1, green: 0.5960784314, blue: 0.3450980392, alpha: 1)), Color(#colorLiteral(red: 1, green: 0.7882352941, blue: 0.568627451, alpha: 1))]), startPoint: .topLeading, endPoint: .bottomTrailing))
                         .cornerRadius(50)
                         .shadow( color: Color(#colorLiteral(red: 0.337254902, green: 0.4, blue: 0.7607843137, alpha: 0.17)), radius: 25, x: 0, y: 13)
-                        
+
                 }
                 
             }

@@ -19,7 +19,7 @@ struct ErrorFood: View {
                     .font(.largeTitle)
                     .foregroundColor(.white)
                 
-                Text("Something is wrong here… \nWe’ll fix it soon!")
+                Text("ERROR_FOOD_TEXT_EXPLANATION")
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .opacity(0.7)
@@ -27,7 +27,7 @@ struct ErrorFood: View {
                 Button(action: {
                     
                 }) {
-                    Text("Home".uppercased())
+                    Text("ERROR_FOOD_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.black)
                         .padding(.vertical)

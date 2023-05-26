@@ -19,15 +19,16 @@ struct FileNotFound: View {
                     .font(.largeTitle)
                     .foregroundColor(.white)
                 
-                Text("Looks like the file you are looking for is missing....")
+                Text("FILE_NOT_FOUND_TEXT_EXPLANATION")
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .opacity(0.7)
+                //Looks like the file you are looking for is missing....
                 
                 Button(action: {
                     
                 }) {
-                    Text("Home".uppercased())
+                    Text("FILE_NOT_FOUND_BUTTON_TEXT")
                         .fontWeight(.semibold)
                         .foregroundColor(.black)
                         .padding(.vertical)

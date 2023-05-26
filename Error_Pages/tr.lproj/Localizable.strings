@@ -1,0 +1,84 @@
+/* 
+  Localizable.strings
+  Error_Pages
+
+  Created by Göktug Yeşil on 26.05.2023.
+  
+*/
+
+"NOCONNECRTİON_TEXT_EXPLANATION" = "Bağlantınızda bir sorun var, lütfen \ntekrar deneyin.";
+"NOCONNECRTİON_BUTTON_TEXT" = "YENİDEN DENE";
+
+"ERROR404_TEXT_TITLE" = "Sayfa bulunamadı";
+"ERROR404_TEXT_EXPLANATION" = "Aradığınız sayfa mevcut değil…";
+"ERROR404_BUTTON_TEXT" = "ANASAYFAYA GİT";
+
+"SOMETHING_WENT_WRONG_TEXT_EXPLANATION" = "Bir şeyler yanlış gitti. \nLütfen tekrar deneyin.";
+"SOMETHING_WENT_WRONG_BUTTON_TEXT" = "TEKRAR DENEYİN";
+
+"SOMETHING_WRONG_TEXT_EXPLANATION" = "Aradığınız dosya \nburada değil...";
+"SOMETHING_WRONG_BUTTON_TEXT" = "GERİ DÖN";
+
+"ERROR_TEXT_EXPLANATION" = "Bir şeyler yanlış oldu. \nLütfen sonra tekrar deneyiniz";
+"ERROR404_BUTTON_TEXT" = "YENİDEN DENE";
+
+"LOCATION_ACCESS_TEXT_EXPLANATION" = "Bu özelliği kullanmak için lütfen \nkonum erişimini etkinleştirin";
+"LOCATION_ACCESS_BUTTON_TEXT" = "ETKİNLEŞTİR";
+
+"BROKEN_LINK_TEXT_TITLE" = "Oops!..";
+"BROKEN_LINK_TEXT_EXPLANATION" = "Bir şeyler yanlış oldu. Lütfen sonra tekrar deneyiniz";
+"BROKEN_LINK_BUTTON_TEXT" = "YENİDEN DENE";
+
+"MISSING_ARTICLE_TEXT_TITLE" = "Eksik Makale";
+"MISSING_ARTICLE_TEXT_EXPLANATION" = "Aradığınız makale \nbulunamıyor";
+"MISSING_ARTICLE_BUTTON_TEXT" = "GERİ";
+
+"PAYMENT_FAILED_TEXT_TITLE" = "Ödeme başarısız";
+"PAYMENT_FAILED_TEXT_EXPLANATION" = "Kartınız satıcı tarafından reddedildi. Lütfen tekrar deneyin";
+"PAYMENT_FAILED_BUTTON_TEXT" = "GERİ";
+
+"ROUTER_OFFLINE_TEXT_TITLE" = "Yönlendirici Çevrimdışı";
+"ROUTER_OFFLINE_TEXT_EXPLANATION" = "İnternet bağlantısı yok, lütfen yönlendiricinizi yeniden başlatmayı deneyin...";
+"ROUTER_OFFLINE_BUTTON_TEXT" = "YENİDEN DENE";
+
+"CONNECTION_FAILED_TEXT_TITLE" = "Bağlantı Başarısız";
+"CONNECTION_FAILED_TEXT_EXPLANATION" = "Ağa bağlanılamadı, \nLütfen kontrol edip tekrar deneyin.";
+"CONNECTION_FAILED_BUTTON_TEXT" = "YENİDEN DENE";
+
+"CAMERA_ACCESS_TEXT_TITLE" = "Kamera Erişimi";
+"CAMERA_ACCESS_TEXT_EXPLANATION" = "Lütfen fotoğraf çekmek için \nkameranıza erişime izin verin";
+"CAMERA_ACCESS_BUTTON_TEXT" = "İZİN VERMEK";
+
+"FILE_NOT_FOUND_TEXT_EXPLANATION" = "Görünüşe göre aradığınız dosya eksik....";
+"FILE_NOT_FOUND_BUTTON_TEXT" = "ANASAYFA";
+
+"ERROR_FOOD_TEXT_EXPLANATION" = "Burada bir sorun var... \nYakında düzelteceğiz!";
+"ERROR_FOOD_BUTTON_TEXT" = "ANASAYFA";
+
+"ERROR_SCREEN_404_TEXT_TITLE" = "Oops!..";
+"ERROR_SCREEN_404_TEXT_EXPLANATION" = "Hata! Aradığınız sayfa mevcut değil...";
+"ERROR_SCREEN_404_BUTTON_TEXT" = "ANASAYFA";
+
+"STORAGE_NOT_ENOUGH_TEXT_TITLE" = "Yeterli alan yok";
+"STORAGE_NOT_ENOUGH_TEXT_EXPLANATION" = "Bu dosyayı kaydetmek için \nyeterli depolama alanınız kalmadı...";
+"STORAGE_NOT_ENOUGH_BUTTON_TEXT" = "YÖNETMEK";
+
+"TIME_ERROR_TEXT_TITLE" = "Doğru Olmayan Bir Şey...";
+"TIME_ERROR_TEXT_EXPLANATION" = "Lütfen cihazınızın durumunu kontrol edin ve \nyeniden deneyin";
+"TIME_ERROR_BUTTON_TEXT" = "YENİDEN DENE";
+
+"LOCATION_ERROR_TEXT_TITLE" = "Bir saniye bekle...";
+"LOCATION_ERROR_TEXT_EXPLANATION" = "Görünüşe göre okyanusun ortasındasın.";
+"LOCATION_ERROR_BUTTON_TEXT" = "YENİDEN DENE";
+
+"FILE_NOT_FOUND_2_TEXT_TITLE" = "Dosya Yok";
+"FILE_NOT_FOUND_2_TEXT_EXPLANATION" = "Ah! Aradığınız dosya bulunamıyor...";
+"FILE_NOT_FOUND_2_BUTTON_TEXT" = "ANASAYFA";
+
+"NO_SEARCH_RESULT_TEXT_TITLE" = "Sonuç Yok";
+"NO_SEARCH_RESULT_TEXT_EXPLANATION" = "Üzgünüz, bu arama için \nbir sonuç yok, Lütfen başka bir kelime öbeği deneyin...";
+"NO_SEARCH_RESULT_TEXT_FIELD" = "Ara...";
+
+"CONTENT_VIEW_TEXT_TITLE" = "Sonuç Yok";
+"CONTENT_VIEW_TEXT_EXPLANATION" = "Üzgünüz, bu arama için \nbir sonuç yok, Lütfen başka bir kelime öbeği deneyin...";
+"CONTENT_VIEW_TEXT_FIELD" = "Ara...";
